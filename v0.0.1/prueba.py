@@ -24,7 +24,7 @@ while run:
 
 
         #si el evento es salir de la ventana termina
-        if event.type == pygame.QUIT run  = False
+        if event.type == pygame.QUIT: run = False
 
 #Salida
 pygame.quit()
